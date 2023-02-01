@@ -2,21 +2,21 @@
     "books": [
         {
             "id": 1,
-            "title": "",
-            "image": "",
-            "author": "",
-            "pageCount": 0,
-            "summary": "",
-            "link": "" 
+            "title": "A Game of Thrones",
+            "image": "https://m.media-amazon.com/images/I/51tl4a3VY8L._SX328_BO1,204,203,200_.jpg",
+            "author": "George R. R. Martin",
+            "pageCount": 720,
+            "summary": "Winter is coming. Such is the stern motto of House Stark, the northernmost of the fiefdoms that owe allegiance to King Robert Baratheon in far-off King’s Landing. There Eddard Stark of Winterfell rules in Robert's name. There his family dwells in peace and comfort: his proud wife, Catelyn; his sons Robb, Brandon, and Rickon; his daughters Sansa and Arya; and his bastard son, Jon Snow. Far to the north, behind the towering Wall, lie savage Wildings and worse—unnatural things relegated to myth during the centuries-long summer, but proving all too real and all too deadly in the turning of the season.",
+            "link": "https://www.amazon.com/Game-Thrones-Song-Fire-Book/dp/0553386794/ref=tmm_pap_swatch_0?_encoding=UTF8&qid=1675276322&sr=1-3" 
         }, 
         {
             "id": 2,
-            "title": "",
-            "image": "",
-            "author": "",
-            "pageCount": 0,
-            "summary": "",
-            "link": "" 
+            "title": "A Clash of Kings",
+            "image": "https://m.media-amazon.com/images/I/51bkBIA1gEL._SX330_BO1,204,203,200_.jpg",
+            "author": "George R. R. Martin",
+            "pageCount": 784,
+            "summary": "A comet the color of blood and flame cuts across the sky. And from the ancient citadel of Dragonstone to the forbidding shores of Winterfell, chaos reigns. Six factions struggle for control of a divided land and the Iron Throne of the Seven Kingdoms, preparing to stake their claims through tempest, turmoil, and war. It is a tale in which brother plots against brother and the dead rise to walk in the night. Here a princess masquerades as an orphan boy; a knight of the mind prepares a poison for a treacherous sorceress; and wild men descend from the Mountains of the Moon to ravage the countryside. Against a backdrop of incest and fratricide, alchemy and murder, victory may go to the men and women possessed of the coldest steel . . . and the coldest hearts. For when kings clash, the whole land trembles.",
+            "link": "https://www.amazon.com/Clash-Kings-HBO-Tie-Song/dp/0345535413/ref=sxin_10_mbs_w_global_sims?content-id=amzn1.sym.f6adc278-60fd-4516-8b02-0dbae28f44f1%3Aamzn1.sym.f6adc278-60fd-4516-8b02-0dbae28f44f1&crid=CXNXZFB4ZNV5&cv_ct_cx=a+game+of+thrones+book&keywords=a+game+of+thrones+book&pd_rd_i=0345535413&pd_rd_r=aab59dd0-f987-42f4-8bc1-ceaf4d7b2822&pd_rd_w=ykU4z&pd_rd_wg=0vrCB&pf_rd_p=f6adc278-60fd-4516-8b02-0dbae28f44f1&pf_rd_r=TXT2NZYTX6G2EEJXTMQN&qid=1675277237&s=books&sprefix=a+game+of+thrones+book+%2Cstripbooks%2C617&sr=1-1-9e7645f9-2d19-4bff-863e-f6cdbe50f990" 
         }, 
         {
             "id": 3,
