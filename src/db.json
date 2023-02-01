@@ -1,0 +1,94 @@
+{
+    "books": [
+        {
+            "id": 1,
+            "title": "",
+            "image": "",
+            "author": "",
+            "pageCount": 0,
+            "summary": "",
+            "link": "" 
+        }, 
+        {
+            "id": 2,
+            "title": "",
+            "image": "",
+            "author": "",
+            "pageCount": 0,
+            "summary": "",
+            "link": "" 
+        }, 
+        {
+            "id": 3,
+            "title": "",
+            "image": "",
+            "author": "",
+            "pageCount": 0,
+            "summary": "",
+            "link": "" 
+        }, 
+        {
+            "id": 4,
+            "title": "",
+            "image": "",
+            "author": "",
+            "pageCount": 0,
+            "summary": "",
+            "link": "" 
+        }, 
+        {
+            "id": 5,
+            "title": "",
+            "image": "",
+            "author": "",
+            "pageCount": 0,
+            "summary": "",
+            "link": "" 
+        },
+        {
+            "id": 6,
+            "title": "",
+            "image": "",
+            "author": "",
+            "pageCount": 0,
+            "summary": "",
+            "link": "" 
+        }, 
+        {
+            "id": 7,
+            "title": "",
+            "image": "",
+            "author": "",
+            "pageCount": 0,
+            "summary": "",
+            "link": "" 
+        }, 
+        {
+            "id": 8,
+            "title": "",
+            "image": "",
+            "author": "",
+            "pageCount": 0,
+            "summary": "",
+            "link": "" 
+        }, 
+        {
+            "id": 9,
+            "title": "",
+            "image": "",
+            "author": "",
+            "pageCount": 0,
+            "summary": "",
+            "link": "" 
+        }, 
+        {
+            "id": 10,
+            "title": "",
+            "image": "",
+            "author": "",
+            "pageCount": 0,
+            "summary": "",
+            "link": "" 
+        }
+    ]
+}
