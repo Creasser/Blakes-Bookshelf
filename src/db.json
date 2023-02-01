@@ -65,12 +65,12 @@
         }, 
         {
             "id": 8,
-            "title": "",
-            "image": "",
-            "author": "",
-            "pageCount": 0,
+            "title": "The Lightning Thief",
+            "image": "https://m.media-amazon.com/images/I/51PRKKi2BuL._SX325_BO1,204,203,200_.jpg",
+            "author": "Rick Riordan",
+            "pageCount": 416,
             "summary": "",
-            "link": "" 
+            "link": "https://www.amazon.com/Lightning-Thief-Percy-Jackson-Olympians/dp/0786838655/ref=sr_1_1?crid=21P9BSHQO5WP5&keywords=percy+jackson+book+1+paperback&qid=1675279052&s=books&sprefix=percy+jackson+book+1+paperback%2Cstripbooks%2C128&sr=1-1" 
         }, 
         {
             "id": 9,
