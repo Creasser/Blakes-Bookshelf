@@ -9,7 +9,7 @@ import { Route } from 'react-router-dom';
 
 function App() {
   return (
-    <div>
+    <div className='app'>
       <NavBar />
       <Route exact path="/">
         <Home />
