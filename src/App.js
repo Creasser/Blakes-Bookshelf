@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useEffect, useState } from 'react';
 import NavBar from './components/NavBar';
 import Home from './components/Home';
 import { Route } from 'react-router-dom';
@@ -9,10 +9,17 @@ import Bookshelf from './components/Bookshelf';
 //will need to make a book component that can be resused for each book that is passed to create the book card
 
 function App() {
+  const [books, setBooks] = useState([])
+
+  useEffect(() => {
+    fetch('http://localhost:3000/books')
+    .then(r => r.json())
+    .then(data => console.log(data))
+  }, [])
   return (
     <div className='app'>
       <NavBar />
-      <Route exact path="/">
+      <Route exact path="/home">
         <Home />
       </Route>
       <Route exact path="/bookshelf">
