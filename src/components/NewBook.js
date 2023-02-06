@@ -15,7 +15,14 @@ const [newBook, setNewBook] = useState({
 
     return (
         <div>
-            New Book
+            <form>
+                <input 
+                type='text'
+                name="title"
+                value={newBook.title}
+                placeholder='Enter Book Title'>
+                </input>
+            </form>
         </div>
     )
 }
