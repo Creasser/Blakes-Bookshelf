@@ -15,6 +15,8 @@ code {
 
 .navLinkContainer {
   display: flex;
+  margin-bottom: 25px;
+  padding: 15px;
 }
 
 .navLinks {
@@ -27,6 +29,10 @@ code {
 .navLinks:visited {
   color: black;
 }
+.navLinks:hover {
+  color: white;
+}
+
 
 .app {
   display: flex;
