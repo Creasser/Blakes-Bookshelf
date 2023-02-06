@@ -17,16 +17,16 @@ function App() {
     .then(data => setBooks(data))
   }, [])
 
-  console.log(books)
+  
 
   return (
     <div className='app'>
       <NavBar />
       <Route exact path="/home">
-        <Home />
+        <Home  />
       </Route>
       <Route exact path="/bookshelf">
-        <Bookshelf />
+        <Bookshelf books={books} />
       </Route>
     </div>
   );
