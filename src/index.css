@@ -43,6 +43,11 @@ code {
   display: flex;
   flex-direction: column;
   align-items: center;
+  margin-right: 25px;
+  border: solid black;
+  margin-bottom: 25px;
+  padding: 10px;
+  background: wheat;
 }
 .bookCover {
   width: 250px;
