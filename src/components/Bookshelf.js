@@ -13,7 +13,7 @@ function Bookshelf({ books }){
     }) 
 
     return (
-        <div>
+        <div className="bookshelf">
             {bookElements}
         </div>
     )

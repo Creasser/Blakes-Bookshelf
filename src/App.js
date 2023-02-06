@@ -23,7 +23,7 @@ function App() {
     <div className='app'>
       <NavBar />
       <Route exact path="/home">
-        <Home  />
+        <Home />
       </Route>
       <Route exact path="/bookshelf">
         <Bookshelf books={books} />
