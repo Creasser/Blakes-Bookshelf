@@ -3,6 +3,7 @@ import NavBar from './components/NavBar';
 import Home from './components/Home';
 import { Route } from 'react-router-dom';
 import Bookshelf from './components/Bookshelf';
+import NewBook from './components/NewBook';
 //create NavBar component that will have links to the Home page, book page, and add book page
 //create Home component, this component will just have general information about the website
 //create BookShelf component: This component will display a small preview of all the books. When the book is clicked on, the user will be redirected to another page that shows only the book clicked on and more information about the book.
@@ -27,6 +28,9 @@ function App() {
       </Route>
       <Route exact path="/bookshelf">
         <Bookshelf books={books} />
+      </Route>
+      <Route exact path='/newbook'>
+        <NewBook />
       </Route>
     </div>
   );
