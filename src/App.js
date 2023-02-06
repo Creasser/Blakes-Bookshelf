@@ -12,10 +12,13 @@ function App() {
   const [books, setBooks] = useState([])
 
   useEffect(() => {
-    fetch('http://localhost:3000/books')
+    fetch('http://localhost:4000/books')
     .then(r => r.json())
-    .then(data => console.log(data))
+    .then(data => setBooks(data))
   }, [])
+
+  console.log(books)
+
   return (
     <div className='app'>
       <NavBar />
