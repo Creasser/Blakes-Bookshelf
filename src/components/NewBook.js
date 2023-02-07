@@ -47,7 +47,7 @@ function handleSubmit(e){
 
     return (
         <div>
-            <form onSubmit={handleSubmit}>
+            <form onSubmit={handleSubmit} className='formContainer'>
                 <input 
                 type="text"
                 name="title"
