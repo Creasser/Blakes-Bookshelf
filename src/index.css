@@ -81,6 +81,10 @@ code {
   width: -webkit-fill-available;
   margin-top: 5px;
 }
+.submitBtn:hover {
+  background-color: black;
+  color: white;
+}
 #title {
   display: flex;
   justify-content: center;

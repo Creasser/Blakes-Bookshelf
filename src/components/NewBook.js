@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import { useHistory } from "react-router-dom";
 
 function NewBook({ onAddBook }){
     // create a controlled form
@@ -11,6 +12,8 @@ const [newBook, setNewBook] = useState({
     pageCount: '',
     link: ''
 })
+
+const history = useHistory()
 
 function handleChange(e){
     const name = e.target.name
@@ -40,7 +43,9 @@ function handleSubmit(e){
         body: JSON.stringify(addedBook)
     })
     .then(r => r.json())
-    .then(data => onAddBook(data))
+    .then(data => {
+        history.push('/bookshelf')
+        onAddBook(data)})
 }
 
 //console.log(newBook)
