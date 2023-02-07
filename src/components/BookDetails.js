@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from "react";
-import { useParams } from "react-router-dom";
+import { Link, useParams } from "react-router-dom";
 
 
 function BookDetails(){
@@ -24,6 +24,8 @@ if (!book) return <h1>Loading...</h1>
             <p>{book.summary}</p>
             <p>{`Pages: ${book.pageCount}`}</p>
             <a href={book.link}>Click Here to Purchase</a>
+            <br />
+            <Link to="/bookshelf">Return to Bookshelf</Link>
         </div>
     )
 }
