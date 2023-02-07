@@ -1,9 +1,20 @@
-import React, { useState } from "react";
+import React, { useEffect, useState } from "react";
+import { useParams } from "react-router-dom";
+
 
 function BookDetails(){
 const [book, setBook] = useState(null)
+const params = useParams()
 
 
+useEffect(() => {
+    fetch(`http://localhost:4000/books/${params.id}`)
+    .then(r => r.json())
+    .then(data => setBook(data))
+}, [params.id])
+
+
+if (!book) return <h1>Loading...</h1>
 
     return(
         <div>

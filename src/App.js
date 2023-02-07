@@ -29,6 +29,9 @@ function App() {
       <Route exact path="/home">
         <Home />
       </Route>
+      <Route exact path="/bookshelf/:id">
+        <BookDetails />
+      </Route>
       <Route exact path="/bookshelf">
         <Bookshelf books={books} />
       </Route>
