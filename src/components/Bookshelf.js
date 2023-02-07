@@ -9,7 +9,7 @@ function Bookshelf({ books }){
     //will need to have state to hold the books component, will need to determine where it will need to be. more than likely it will be the app component. 
 
     const bookElements = books.map((book) => {
-        return <Book key={book.id} title={book.title} author={book.author} cover={book.image} pages={book.pageCount} />
+        return <Book key={book.id} author={book.author} cover={book.image} pages={book.pageCount} />
     }) 
 
     return (

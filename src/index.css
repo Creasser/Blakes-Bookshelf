@@ -19,6 +19,10 @@ code {
   padding: 15px;
 }
 
+.navLinks.active,
+.navLinks:hover {
+  color: white;
+}
 .navLinks {
   font-size: 25px;
   text-decoration: none;
@@ -26,12 +30,7 @@ code {
   color: black;
 }
 
-.navLinks:visited {
-  color: black;
-}
-.navLinks:hover {
-  color: white;
-}
+
 
 
 .app {
@@ -67,6 +66,7 @@ code {
 
 .formInput {
   border-radius: 5px;
+  margin: 5px;
   margin-bottom: 5px;
   border: 2px solid black;
   font-size: 20px;
@@ -78,4 +78,10 @@ code {
   border-radius: 5px;
   border: 2px solid black;
   font-size: larger;
+  width: -webkit-fill-available;
+  margin-top: 5px;
+}
+#title {
+  display: flex;
+  justify-content: center;
 }

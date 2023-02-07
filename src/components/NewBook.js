@@ -46,8 +46,10 @@ function handleSubmit(e){
 //console.log(newBook)
 
     return (
-        <div>
-            <form onSubmit={handleSubmit} className='formContainer'>
+      <div>
+        <h1 id='title'>Add a New Book to the Collection!</h1>
+        <div className='formContainer'>
+            <form onSubmit={handleSubmit} >
                 <input 
                 type="text"
                 name="title"
@@ -72,6 +74,7 @@ function handleSubmit(e){
                 className="formInput"
                 onChange={handleChange}>
                 </input>
+                <br />
                 <input 
                 type="text"
                 name="summary"
@@ -96,6 +99,7 @@ function handleSubmit(e){
                 className="formInput"
                 onChange={handleChange}>
                 </input>
+                <br />
                 <input
                 type='submit'
                 name="submit"
@@ -104,6 +108,7 @@ function handleSubmit(e){
                 </input>
             </form>
         </div>
+      </div>  
     )
 }
 

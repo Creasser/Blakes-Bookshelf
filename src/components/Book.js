@@ -1,6 +1,6 @@
 import React from "react";
 
-function Book({ title, author, cover, pages}){
+function Book({ author, cover, pages }){
 
     return (
         <div className="book">
