@@ -12,15 +12,61 @@ const [newBook, setNewBook] = useState({
     link: ''
 })
 
+function handleChange(e){
+    const name = e.target.name
+    const value = e.target.value
 
+    setNewBook({
+        ...newBook,
+        [name]: value
+    })
+}
+
+console.log(newBook)
     return (
         <div>
             <form>
                 <input 
-                type='text'
+                type="text"
                 name="title"
                 value={newBook.title}
-                placeholder='Enter Book Title'>
+                placeholder='Enter Book Title'
+                onChange={handleChange}>
+                </input>
+                <input 
+                type="text"
+                name="author"
+                value={newBook.author}
+                placeholder='Enter Author'
+                onChange={handleChange}>
+                </input>
+                <input 
+                type="text"
+                name="image"
+                value={newBook.image}
+                placeholder='Enter Image'
+                onChange={handleChange}>
+                </input>
+                <input 
+                type="text"
+                name="summary"
+                value={newBook.summary}
+                placeholder='Enter Summary'
+                onChange={handleChange}>
+                </input>
+                <input 
+                type="text"
+                name="pageCount"
+                value={newBook.pageCount}
+                placeholder='Enter Page Count'
+                onChange={handleChange}>
+                </input>
+                <input 
+                type="text"
+                name="link"
+                value={newBook.link}
+                placeholder='Enter Link to Purchase'
+                onChange={handleChange}>
                 </input>
             </form>
         </div>
