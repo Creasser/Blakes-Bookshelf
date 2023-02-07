@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 
-function NewBook(){
+function NewBook({ onAddBook }){
     // create a controlled form
     // have the data in state so that i can pass it up to the app component and add it to the db.json file
 const [newBook, setNewBook] = useState({
@@ -24,12 +24,30 @@ function handleChange(e){
 
 function handleSubmit(e){
     e.preventDefault()
+    let addedBook = {
+        title: newBook.title,
+        image: newBook.image,
+        author: newBook.author,
+        pageCount: Number(newBook.pageCount),
+        summary: newBook.summary,
+        link: newBook.link
+    }
+    fetch('http://localhost:4000/books', {
+        method: 'POST',
+        headers: {
+            'Content-Type': 'application/json'
+        },
+        body: JSON.stringify(addedBook)
+    })
+    .then(r => r.json())
+    .then(data => onAddBook(data))
 }
 
-console.log(newBook)
+//console.log(newBook)
+
     return (
         <div>
-            <form>
+            <form onSubmit={handleSubmit}>
                 <input 
                 type="text"
                 name="title"

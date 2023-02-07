@@ -18,7 +18,9 @@ function App() {
     .then(data => setBooks(data))
   }, [])
 
-  
+  function addBook(addedBook){
+    setBooks([...books, addedBook])
+  }
 
   return (
     <div className='app'>
@@ -30,7 +32,7 @@ function App() {
         <Bookshelf books={books} />
       </Route>
       <Route exact path='/newbook'>
-        <NewBook />
+        <NewBook onAddBook={addBook} />
       </Route>
     </div>
   );
