@@ -22,6 +22,10 @@ function handleChange(e){
     })
 }
 
+function handleSubmit(e){
+    e.preventDefault()
+}
+
 console.log(newBook)
     return (
         <div>
@@ -31,6 +35,7 @@ console.log(newBook)
                 name="title"
                 value={newBook.title}
                 placeholder='Enter Book Title'
+                className="formInput"
                 onChange={handleChange}>
                 </input>
                 <input 
@@ -38,6 +43,7 @@ console.log(newBook)
                 name="author"
                 value={newBook.author}
                 placeholder='Enter Author'
+                className="formInput"
                 onChange={handleChange}>
                 </input>
                 <input 
@@ -45,6 +51,7 @@ console.log(newBook)
                 name="image"
                 value={newBook.image}
                 placeholder='Enter Image'
+                className="formInput"
                 onChange={handleChange}>
                 </input>
                 <input 
@@ -52,6 +59,7 @@ console.log(newBook)
                 name="summary"
                 value={newBook.summary}
                 placeholder='Enter Summary'
+                className="formInput"
                 onChange={handleChange}>
                 </input>
                 <input 
@@ -59,6 +67,7 @@ console.log(newBook)
                 name="pageCount"
                 value={newBook.pageCount}
                 placeholder='Enter Page Count'
+                className="formInput"
                 onChange={handleChange}>
                 </input>
                 <input 
@@ -66,7 +75,14 @@ console.log(newBook)
                 name="link"
                 value={newBook.link}
                 placeholder='Enter Link to Purchase'
+                className="formInput"
                 onChange={handleChange}>
+                </input>
+                <input
+                type='submit'
+                name="submit"
+                value='Add Book'
+                className="submitBtn">
                 </input>
             </form>
         </div>
