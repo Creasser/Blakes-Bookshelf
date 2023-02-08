@@ -5,26 +5,19 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  /*background-color: #747C92;*/
   background-image: linear-gradient(
-  51deg,
-  hsl(0deg 39% 94%) 0%,
-  hsl(13deg 100% 94%) 6%,
-  hsl(29deg 100% 93%) 13%,
-  hsl(42deg 100% 91%) 19%,
-  hsl(53deg 100% 90%) 25%,
-  hsl(45deg 89% 79%) 31%,
-  hsl(39deg 92% 69%) 37%,
-  hsl(34deg 96% 60%) 44%,
-  hsl(30deg 100% 50%) 50%,
-  hsl(27deg 72% 46%) 56%,
-  hsl(26deg 55% 39%) 63%,
-  hsl(24deg 34% 31%) 69%,
-  hsl(0deg 0% 22%) 75%,
-  hsl(0deg 0% 23%) 81%,
-  hsl(0deg 1% 23%) 87%,
-  hsl(0deg 1% 24%) 94%,
-  hsl(0deg 2% 24%) 100%
+  45deg,
+  hsl(0deg 0% 0%) 0%,
+  hsl(277deg 94% 6%) 10%,
+  hsl(268deg 92% 10%) 20%,
+  hsl(260deg 97% 14%) 30%,
+  hsl(242deg 47% 25%) 40%,
+  hsl(213deg 45% 32%) 50%,
+  hsl(192deg 57% 37%) 60%,
+  hsl(189deg 64% 38%) 70%,
+  hsl(211deg 51% 39%) 80%,
+  hsl(232deg 54% 35%) 90%,
+  hsl(245deg 100% 25%) 100%
 );
 }
 
@@ -33,14 +26,16 @@ code {
     monospace;
 }
 
-.container {
-  height: 90.5vh;
-}
 
 .navLinkContainer {
   display: flex;
   margin-bottom: 25px;
   padding: 15px;
+  border: solid;
+    background-color: #9b7fad;
+    border-radius: 5px;
+    box-shadow: 4px 8px 45px 0px rgba(0,0,0,0.90);
+
 }
 
 .navLinks.active,
@@ -67,8 +62,9 @@ code {
   border: solid black;
   margin-bottom: 25px;
   padding: 10px;
-  background: wheat;
+  background: #9b7fad;
   border-radius: 5px;
+  box-shadow: 4px 8px 45px 0px rgba(0,0,0,0.90);
 }
 .bookCover {
   width: 250px;
@@ -108,8 +104,13 @@ code {
   color: white;
 }
 #title {
-  display: flex;
-  justify-content: center;
+ 
+  border: solid black;
+  border-radius: 5px;
+  background: #9b7fad;
+  padding: 20px;
+  display: inline-flex;
+  box-shadow: 4px 8px 45px 0px rgba(0,0,0,0.90)
 }
 
 .bookLinks {
@@ -126,10 +127,15 @@ code {
 }
 .home {
   display: flex;
-  justify-content: center;
-  font-size: 25px;
-  margin-left: 150px;
-  margin-right: 150px;
+    justify-content: center;
+    font-size: 25px;
+    margin-left: 150px;
+    margin-right: 150px;
+    border: solid;
+    background-color: #9b7fad;
+    padding: 10px;
+    box-shadow: 4px 8px 45px 0px rgb(0 0 0 / 90%);
+    border-radius: 5px;
 }
 
 .bookDetails {
@@ -144,6 +150,9 @@ code {
   font-size: 20px;
 }
 
-.homepage {
+.container {
   height: 90.5vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
