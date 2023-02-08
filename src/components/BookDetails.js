@@ -17,15 +17,15 @@ useEffect(() => {
 if (!book) return <h1>Loading...</h1>
 
     return(
-        <div>
+        <div className="bookDetails">
             <h1>{book.title}</h1>
             <img src={book.image}></img>
-            <h4>{book.author}</h4>
-            <p>{book.summary}</p>
+            <h2>{book.author}</h2>
+            <p id="summary">{book.summary}</p>
             <p>{`Pages: ${book.pageCount}`}</p>
-            <a href={book.link}>Click Here to Purchase</a>
+            <a className="bookLinks" href={book.link}>Click Here to Purchase</a>
             <br />
-            <Link to="/bookshelf">Return to Bookshelf</Link>
+            <Link className="bookLinks" to="/bookshelf">Return to Bookshelf</Link>
         </div>
     )
 }
