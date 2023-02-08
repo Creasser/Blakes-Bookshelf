@@ -30,9 +30,6 @@ code {
   color: black;
 }
 
-
-
-
 .app {
   display: flex;
   flex-direction: column;
@@ -47,6 +44,7 @@ code {
   margin-bottom: 25px;
   padding: 10px;
   background: wheat;
+  border-radius: 5px;
 }
 .bookCover {
   width: 250px;
@@ -88,4 +86,17 @@ code {
 #title {
   display: flex;
   justify-content: center;
+}
+
+.bookLinks {
+  text-decoration: none;
+  color: black;
+  border: 2px solid;
+  padding: 3px;
+  border-radius: 5px;
+}
+.bookLinks:hover {
+  background-color: black;
+  color: white;
+  border: 2px solid black;
 }

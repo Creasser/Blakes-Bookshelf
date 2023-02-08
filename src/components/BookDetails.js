@@ -25,7 +25,7 @@ if (!book) return <h1>Loading...</h1>
             <p>{`Pages: ${book.pageCount}`}</p>
             <a href={book.link}>Click Here to Purchase</a>
             <br />
-            <Link className="bookLinks" to="/bookshelf">Return to Bookshelf</Link>
+            <Link to="/bookshelf">Return to Bookshelf</Link>
         </div>
     )
 }
