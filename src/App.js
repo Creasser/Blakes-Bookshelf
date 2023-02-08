@@ -26,7 +26,7 @@ function App() {
   return (
     <div className='app'>
       <NavBar />
-      <Route exact path="/home">
+      <Route exact path="/">
         <Home />
       </Route>
       <Route exact path="/bookshelf/:id">
