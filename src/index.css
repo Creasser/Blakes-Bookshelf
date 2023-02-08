@@ -5,12 +5,36 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background-color: #747C92;
+  /*background-color: #747C92;*/
+  background-image: linear-gradient(
+  51deg,
+  hsl(0deg 39% 94%) 0%,
+  hsl(13deg 100% 94%) 6%,
+  hsl(29deg 100% 93%) 13%,
+  hsl(42deg 100% 91%) 19%,
+  hsl(53deg 100% 90%) 25%,
+  hsl(45deg 89% 79%) 31%,
+  hsl(39deg 92% 69%) 37%,
+  hsl(34deg 96% 60%) 44%,
+  hsl(30deg 100% 50%) 50%,
+  hsl(27deg 72% 46%) 56%,
+  hsl(26deg 55% 39%) 63%,
+  hsl(24deg 34% 31%) 69%,
+  hsl(0deg 0% 22%) 75%,
+  hsl(0deg 0% 23%) 81%,
+  hsl(0deg 1% 23%) 87%,
+  hsl(0deg 1% 24%) 94%,
+  hsl(0deg 2% 24%) 100%
+);
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+.container {
+  height: 90.5vh;
 }
 
 .navLinkContainer {
@@ -118,4 +142,8 @@ code {
   margin-right: 150px;
   margin-left: 150px;
   font-size: 20px;
+}
+
+.homepage {
+  height: 90.5vh;
 }

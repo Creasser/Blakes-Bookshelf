@@ -2,8 +2,6 @@ import React, { useState } from "react";
 import { useHistory } from "react-router-dom";
 
 function NewBook({ onAddBook }){
-    // create a controlled form
-    // have the data in state so that i can pass it up to the app component and add it to the db.json file
 const [newBook, setNewBook] = useState({
     title: '',
     author: '',
@@ -48,10 +46,9 @@ function handleSubmit(e){
         onAddBook(data)})
 }
 
-//console.log(newBook)
 
     return (
-      <div>
+      <div className="container">
         <h1 id='title'>Add a New Book to the Collection!</h1>
         <div className='formContainer'>
             <form onSubmit={handleSubmit} >

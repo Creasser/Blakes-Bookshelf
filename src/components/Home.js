@@ -1,7 +1,6 @@
 import React from "react";
 
 function Home(){
-//just a regular home page for basic info about the book showcase
 
     return (
         <div className="homepage">
