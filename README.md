@@ -4,7 +4,6 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 ## Digital Bookcase
 
-This web application allows users to keep a digital version of their bookcase. This application uses react.js to create the frontend. It utilizes react-router-dom to implement client side routing to the applicaition. The backend of the applicaiton is mocked by json-server with a db.json file.
-
-
-This web application uses json-server to mock the backend with a db.json file. It also utilizes react-router-dom.
+This web application allows users to keep a digital version of their bookcase. Users are able to add books to the bookcase through a controlled form component. Each book in the collection has its own personal page that displays additional data. 
+This application uses react.js to create the frontend. useState, useEffect, and react-router-dom were used to assist in the frontend developement of this project. It utilizes react-router-dom to implement client side routing to the applicaition and create a single page application. 
+The backend of the applicaiton is mocked by json-server with a db.json file.
